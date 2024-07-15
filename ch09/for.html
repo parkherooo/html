@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		sum=0;
+		sum1=0;
+		for(i = 0; i<11;i++){
+			sum+=i;
+		}
+		document.write("<h3>1~10까지의 합은" + sum + "<h3>");
+		for(i=0; i<41;i++){
+			document.write(i+",");
+			if(i%2==0) sum1+=i;
+		}
+		document.write("<h3>1~41까지 짝수의 합은" + sum1 + "<h3>");
+	</script>
+</body>
+</html>

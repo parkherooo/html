@@ -1,0 +1,41 @@
+@charset "UTF-8";
+table{
+	background-color: #e5f4ad;
+	font-family: Hahmlet;
+	border-color:orange;
+}
+.th1{
+	background-color: #a2c8fa;
+	width: 200px;
+	height: 40px;
+	font-size: large;
+	text-shadow: 0 0 0.5em #16507d, 0 0 0.5em #16507d, 0 0 0.5em #16507d;
+}
+.td1{
+	text-decoration: underline;
+}
+button{
+	margin: 10px;
+	border-radius: 10px;
+	font-family: Hahmlet;
+}
+.button1{
+	background-color: #a2c8fa;
+	margin: 10px;
+	border-radius: 10px;
+	font-family: Hahmlet;
+}
+.button2{
+	background-color: #a8502e;
+	margin: 10px;
+	border-radius: 10px;
+}
+input{
+	margin: 10px;
+}
+select{
+	font-family: Hahmlet;
+	margin: 10px;
+	width: 200px;
+	height: 30px;
+}

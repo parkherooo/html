@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function changeFn() {
+		var  result = document.querySelector("p");
+		result.style.color="Green";
+	}
+</script>
+</head>
+<body>
+	<button id = "change" onclick="changeFn()" >글자색 바꾸기</button>
+	<p id = "result">Reprehenderit tempor do quis sunt eu et exercitation deserunt. 
+Laboris adipisicing est sint aliquip nulla pariatur velit irure elit qui id. Dolore aliquip dolore eu ut irure sint Lorem reprehenderit velit. Duis veniam irure cillum anim excepteur culpa pariatur sunt esse. Eu nulla commodo velit ex id dolore incididunt mollit incididunt nisi labore culpa qui ea. Commodo veniam veniam in ipsum ad minim 
+occaecat qui pariatur adipisicing laborum quis.</p>
+<script type="text/javascript">
+	/* var changeBtn = document.querySelector("#change");
+	changeBtn.onclick = changeFn; */
+	
+/* 	document.querySelector("#chagne").onclik = chageFn; */
+	document.querySelector("#change").onclick = function(){
+	document.querySelector('p').style.color = '#0f0';
+}
+</script>
+</body>
+</html>

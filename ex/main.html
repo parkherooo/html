@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일정관리 사이트</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbit&display=swap" rel="stylesheet">
+
+</head>
+<body style="font-family: 'Orbit';">
+    <div>
+        <img src="todo.png" width="80px" height="80px";>
+    <script>
+        var name = prompt("일정 관리의 별명을 지어주세요.");
+        document.write("<h1>"+name+"의 일정 관리<h1>");
+    </script>
+        <button class="button1" onclick="location.href='login.html'">로그인</button>
+    </div>
+    <div>
+        <input style="font-family: 'Orbit';" type="text" id="taskInput" placeholder="일정을 입력해주세요">
+        <button onclick="addTask()">+</button>
+    </div>
+    <ul id="taskList"></ul>
+    <script style="font-family: 'Orbit';" src="script.js"></script>
+</body>
+</html>

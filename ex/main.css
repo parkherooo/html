@@ -1,0 +1,121 @@
+.orbit-regular {
+    font-family: "Orbit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body {
+    margin: 30px auto;
+    border-radius: 30px;
+    border: 6px solid #03c75a;
+    width: 70%;
+    height: 10%;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background-color: #f0f2f5;
+}
+img{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #03c75a;
+    font-size: 2em;
+}
+
+div {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%; 
+    max-width: 600px;
+}
+
+input {
+    padding: 10px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-grow: 2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #03c75a;
+
+    border: none;
+    border-radius: 40%;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.button1{
+    padding: 5px auto;
+    border-radius: 8%;
+    margin-left: 90px;
+    width: 80px;
+    height: 40px;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: #02a14a;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 80%;
+}
+
+li {
+    font-size: 20px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: rgb(65, 65, 65);
+    background-color: #e9ecef;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+    width: auto;
+}
+
+li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+li .date {
+    font-size: 0.8em;
+    color: #888;
+    margin-left: 10px;
+    flex-shrink: 0;
+}
